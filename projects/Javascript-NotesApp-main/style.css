@@ -1,0 +1,33 @@
+#notes {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-columns:4 * 1fr ; */
+}
+
+@media (max-width: 1205px) {
+    #notes {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: space-between;
+    }
+}
+
+@media (max-width: 992px) {
+    #notes {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        justify-items: space-between;
+    }
+}
+
+@media (max-width: 580px) {
+    #notes {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr ;
+        justify-items: space-between;
+    }
+}

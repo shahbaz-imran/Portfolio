@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div class="flex flex-col justify-center items-center my-5">
+        <div id="input-form" class="flex flex-col justify-center items-center p-9 space-y-4 border-2 rounded w-1/3 mb-10">
+            <h1 class="text-3xl font-semibold underline">Add Contact</h1>
+
+            <input id="fname" type="text" placeholder="Enter First Name.." class="border-2 rounded-2xl p-2">
+            <input id="lname" type="text" placeholder="Enter Last Name.." class="border-2 rounded-2xl p-2">
+            <input id="number" type="text" placeholder="Enter Your Number.." class="border-2 rounded-2xl p-2">
+            <input id="email" type="text" placeholder="Enter Your Email.." class="border-2 rounded-2xl p-2">
+
+            <button id="add-btn" class="py-2 px-4 border-2 bg-blue-400 rounded-2xl duration-300 hover:bg-transparent">Add Contact</button>
+            <button class="py-2 px-4 border-2 bg-yellow-400 rounded-2xl duration-300 hover:bg-transparent"><a href="./contact.html">View All Contacts</a></button>
+        </div>
+
+
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s;
+  }
+  
+  #clock-container {
+    text-align: center;
+    color: #fff;
+  }
+  
+  #time {
+    font-size: 4em;
+  }
+  
+  #date {
+    font-size: 2em;
+  }
+  
+  #greeting {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+  
+  /* Day background */
+  .day {
+    background-color: #87CEEB;
+  }
+  
+  /* Night background */
+  .night {
+    background-color: #2C3E50;
+  }
+  
